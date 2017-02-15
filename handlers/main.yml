@@ -1,0 +1,6 @@
+---
+
+- name: Restart ansible
+  service:
+    name: ansible
+    state: restarted

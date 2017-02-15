@@ -1,0 +1,6 @@
+---
+
+- name: Install ansible
+  pkgng:
+    name: ansible
+    state: present
