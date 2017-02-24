@@ -1,0 +1,6 @@
+---
+
+- name: Install ansible
+  package:
+    name: ansible
+    state: present

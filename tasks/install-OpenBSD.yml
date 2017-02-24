@@ -1,0 +1,6 @@
+---
+
+- name: Install ansible
+  openbsd_pkg:
+    name: ansible
+    state: present

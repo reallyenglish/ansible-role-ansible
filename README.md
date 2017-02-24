@@ -1,6 +1,6 @@
 # ansible-role-ansible
 
-A brief description of the role goes here.
+Installs ansible.
 
 # Requirements
 
@@ -19,6 +19,9 @@ None
 # Example Playbook
 
 ```yaml
+- hosts: localhost
+  roles:
+    - ansible-role-ansible
 ```
 
 # License
