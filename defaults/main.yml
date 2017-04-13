@@ -1,8 +1,0 @@
-ansible_user: ansible
-ansible_group: ansible
-ansible_log_dir: /var/log/ansible
-ansible_db_dir: "{{ __ansible_db_dir }}"
-ansible_service: ansible
-ansible_conf_dir: "{{ __ansible_conf_dir }}"
-ansible_conf_file: "{{ __ansible_conf_dir }}/ansible.conf"
-ansible_flags: ""
