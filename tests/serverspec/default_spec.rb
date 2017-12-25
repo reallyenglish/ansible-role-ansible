@@ -1,13 +1,13 @@
-require 'spec_helper'
-require 'serverspec'
+require "spec_helper"
+require "serverspec"
 
-package = 'ansible'
+package = "ansible"
 
 case os[:family]
-when 'freebsd'
-  package = 'ansible'
+when "freebsd"
+  package = "ansible"
 end
 
 describe package(package) do
   it { should be_installed }
-end 
+end
